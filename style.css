@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 0vw;
+    background: #0745c1;
+    white-space: nowrap;
+    transition: 0.35s;
+    color: white;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+header div img{
+    margin-left: 1vw;
+    width: 10%;
+    height: 50%;
+}
+
+header button{
+    width: 5%;
+    background: none;
+}
+header button img{
+    width: 50%;
+    background: none;
+    cursor: pointer;
+}
+
+main{
+    background: #0745c1;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+    transition: 0.35s;
+}
+
+#calculator {
+    width: 340px;
+    max-height: 65%;
+    background-color: #E0E0E0;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: ;
+    transition: 0.35s;
+}
+
+#display {
+    width: 100%;
+    height: 45px;
+    font-size: 22px;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    color: black;
+    background-color: #E0E0E0;
+    border: none;
+    box-sizing: border-box;
+    transition: 0.35s;
+}
+
+button{
+    width: 61px;
+    height: 60px;
+    font-size: 22px;
+    margin: 5px 7.5px;
+    border: none;
+    float: left;
+    background-color: #878787 ;
+    color: black;
+    border-radius: 50%;
+    box-shadow:;
+    transition: 0.15s;
+}
+
+#de{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#de img{
+    width: 70%;
+    transition: 0.2s;
+}
+
+#de img:hover{
+    filter: invert();
+    transition: 0.2s;
+}
+
+.operator{
+    color: white ;
+    background-color: #0745c1;
+    transition: 0.15s;
+    color: white;
+}
+
+#ac{
+    color: ;
+}
+
+.equal{
+    width: 135px;
+    border-radius: 40px;
+    background-color: ;
+}
+
+main button:hover {
+    cursor: pointer;
+    background-color: #666666;
+    transition: 0.15s;
+}
+.operator:hover {
+    cursor: pointer;
+    background-color: #1764fe;
+    transition: 0.15s;
+    color: rgb(0, 0, 1);
+}
+
+/*active --> para o momento do clique*/
+ button:active{ 
+    transform: scale(0.9);
+    box-shadow: ;
+}
+
+/*-----------------------------------------------------------------Modo Escuro------------------------------------------*/
+.bodyEscuro{
+    background: #9b640b;
+    transition: 0.35s;
+    color: black;
+}
+
+#calculator .displayEscuro{
+    background-color: #343434;
+    transition: 0.35s;
+}
+
+#calculator .modoEscuro{
+    background: #9b640b;
+    color: white;
+    transition: 0.35s;
+}
+#calculator .modoEscuro:hover{
+    background: #dfa64b;
+    transition: 0.35s;
+}
+
+.botaoEscuro{
+    background-color: #343434;
+    color: white;
+    transition: 0.35s;
+}
+.botaoEscuro:hover{
+    background-color: #727272;
+    transition: 0.35s;
+}
+
+#calculadora .calculatorEscuro{
+    background-color: #343434;
+    transition: 0.35s;
+}
+/*-----------------------------------------------------------------Modo Escuro------------------------------------------*/
