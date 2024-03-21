@@ -54,7 +54,7 @@ main{
 
 #calculator {
     width: 340px;
-    max-height: 65%;
+    height: 55vh;
     background-color: #E0E0E0;
     border-radius: 13px;
     padding: 18px;
@@ -179,3 +179,109 @@ main button:hover {
     transition: 0.35s;
 }
 /*-----------------------------------------------------------------Modo Escuro------------------------------------------*/
+
+/*------------------------------------------------------------------Responsividade-----------------------------------------------------*/
+@media (min-height: 280px) and (max-height: 900px) {
+
+    header button{
+        width: 15vw;
+        height: 5vh;
+    }
+
+    h1{
+        font-size: 1.4em;
+    }
+
+    #calculator {
+        height:70vh ;
+    }
+
+    #calculator button {
+        width: 61px;
+        height: 50px;
+    }
+
+    #calculator .equal{
+        width: 135px;}
+    
+    header div img {
+        height: 3vh;
+        width: 4.4vw;
+    }
+
+    header button{
+        width: 60px;
+        height: 80px;
+    }
+
+};
+
+@media (min-width: 360px) and (max-width: 450px) {
+
+    header button{
+        width: 15vw;
+        height: 5vh;
+    }
+
+    h1{
+        font-size: 1.4em;
+    }
+
+    #calculator {
+        height:75vh;
+    }
+
+    header button{
+        width: 100px;
+        height: 80px;
+    }
+
+};
+
+@media (min-width: 750px) and (max-width: 1150px) {
+    #calculator {
+        height: 45vh;
+    }
+
+    header button{
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media (min-height: 950px) and (max-height: 1300px) {
+    #calculator {
+        height: 45vh;
+    }
+
+    header button{
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) { 
+    #calculator {
+        height: 65vh;
+    }
+
+    header{
+        padding: 2vh 2vw;
+    }
+
+    header div img {
+        height: 4vh;
+        width: 4vw;
+    }
+
+    header button{
+        width: 8vw;
+        height: 5vh;
+    }
+
+    h1{
+        font-size: 2.4em;
+    }
+};
+
+/*------------------------------------------------------------------Responsividade-----------------------------------------------------*/
